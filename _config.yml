@@ -33,15 +33,18 @@ paginate: 10
 paginate_path: "page/:num/"
 
 # Comment
-comment:
-    disqus: guangzh
-    # duoshuo:
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : alwaysle
+    #disqus: guangzh
+
 # Social
 social:
     weibo: guangzh
-    github: guangzh
-    twitter: guangzh
-    gplus: 107108267983477358170
+    github: guangzh917
+    twitter: guang_zh
+    gplus: 100191423191340692282
     mail: guangzh917@gmail.com
 
 # Google Analytics
