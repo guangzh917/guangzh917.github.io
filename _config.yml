@@ -23,7 +23,7 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: 项目, description: 我的项目, url: 'http://project.alwaysle.com'}
+    - {title: 项目, description: 我的项目, url: 'http://112.74.75.1/'}
     - {title: 关于, description: 了解更多关于我, url: 'http://about.alwaysle.com/'}
     - {title: 订阅, description: 邮件订阅本站, url: 'http://eepurl.com/wNSkj'}
 
