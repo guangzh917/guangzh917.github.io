@@ -1,8 +1,8 @@
 # Basic
-title: Always’Le
+title: Selfle’Le
 subtitle: 只要开始就会有新的可能
 #welcome_message: <a href="http://swifter.tips" target="_blank">Swifter.tips - 我维护的 Swift 使用技巧分享网站，每周三更新，欢迎访问</a>
-description: 嗨，我是张广，一个编程爱好者。深圳南山，求职ing。
+description: 嗨，我是张广，欢迎来到我的技术博客。
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://alwaysle.com"
@@ -23,9 +23,9 @@ blog_button:
     description: 访问博客
 
 nav:
-    - {title: 项目, description: 我的项目, url: 'http:///'}
-    - {title: 关于, description: 了解更多关于我, url: 'http://112.74.75.1/'}
-    - {title: 订阅, description: 邮件订阅本站, url: 'http://eepurl.com/'}
+    # - {title: 项目, description: 我的项目, url: 'http:///'}
+    # - {title: 关于, description: 了解更多关于我, url: 'http://selflele.com/'}
+    # - {title: 订阅, description: 邮件订阅本站, url: 'http://eepurl.com/'}
 
 # Pagination
 gems: [jekyll-paginate]
@@ -47,4 +47,4 @@ social:
 # Google Analytics
 ga:
     id: UA-73958897-1
-    host: alwaysle.com
+    host: selflele.com
