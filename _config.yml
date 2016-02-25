@@ -22,7 +22,7 @@ blog_button:
     title: 博客
     description: 访问博客
 
-# nav:
+nav:
     - {title: 主页, description: 我的主页, url: 'http://selflele.com'}
     # - {title: 关于, description: 了解更多关于我, url: 'http://selflele.com/'}
     # - {title: 订阅, description: 邮件订阅本站, url: 'http://eepurl.com/'}
