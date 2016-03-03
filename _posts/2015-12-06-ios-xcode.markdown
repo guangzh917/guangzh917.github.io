@@ -1,3 +1,10 @@
+---
+layout: post
+title: UIView控件
+date: 2015-12-06 22:10:06.000000000 +08:00
+tags: UI
+---
+
 ## Xcode新建项目注意事项
 - Product Name ：项目名称
 - Organization Name：组织名称、公司名称
