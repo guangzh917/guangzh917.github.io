@@ -84,6 +84,7 @@ tags: UI
 
 ##UIView的位置尺寸
 - frame
+
 ```objc
   /*控件矩形框在父控件中的位置和尺寸(以父控件的左上角为坐标原点)*/
   @property(nonatomic) CGRect frame;
