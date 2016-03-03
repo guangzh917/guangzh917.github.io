@@ -1,9 +1,8 @@
 # Basic
 title: Selfle’Le
 subtitle: 只要开始就会有新的可能
-#welcome_message: <a href="http://swifter.tips" target="_blank">Swifter.tips - 我维护的 Swift 使用技巧分享网站，每周三更新，欢迎访问</a>
 description: 嗨，我是张广，欢迎来到我的技术博客。
-# creator: <a href="http://onev.cat">@onevcat</a>
+
 
 url: "http://alwaysle.com"
 
@@ -23,8 +22,8 @@ blog_button:
     description: 访问博客
 
 nav:
+    - {title: 关于, description: 了解更多关于我, url: 'http://selflele.com/about.html#/welcome'}
     - {title: 主页, description: 我的主页, url: 'http://selflele.com'}
-    # - {title: 关于, description: 了解更多关于我, url: 'http://selflele.com/'}
     # - {title: 订阅, description: 邮件订阅本站, url: 'http://eepurl.com/'}
 
 # Pagination

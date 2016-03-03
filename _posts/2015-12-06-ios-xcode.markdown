@@ -1,0 +1,52 @@
+## Xcode新建项目注意事项
+- Product Name ：项目名称
+- Organization Name：组织名称、公司名称
+- Organization Identifier：公司的标识，一般用公司网站域名，反过来写
+- Bundle Identifier：根据公司标识生成软件唯一标识
+
+```
+alwaysle.com      //开发了一个Map
+com.alwaysle.map  //软件唯一标识
+
+```
+
+![](QQ图片20160302112145.png)
+
+
+## storyboard的认识
+- 用来描述软件界面
+- 默认情况下，程序一启动就会加载`Main.storyboard`
+- 加载`storyboard`时，会首先创建的显示箭头所指的控制器面板
+
+## IBAction和IBOutlet
+- IBAction：
+    - 本质就是void
+    - 能让方法具备连线的功能
+- IBOutlet
+    - 能让属性具备连线的功能
+
+## storyboard连线容易出现的问题
+- 被连接的方法代码被删掉，但是连线没有去掉
+    - 可能会出现方法找不到的错误
+    - unrecognized selector sent to instance
+- 被连接的属性被删掉，但是连线没有去掉
+    - 可能会出现方法找不到的错误
+    - `setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key`
+
+## 初识UIViewController控制器
+- 一个控制器负责管理一个大界面
+- 控制器负责界面的创建、事件处理等
+
+## 类扩展
+- 格式
+
+```
+@interface 类名()
+/* 属性、方法的声明*/
+@end
+```
+
+- 作用
+    - 为某个类增加额外的属性和方法声明
+    - 可以写在`.h`和`.m`文件中
+
